@@ -1,3 +1,0 @@
-https://docs.oracle.com/cd/E19623-01/820-6168/file-descriptor-requirements.html
-https://www.geeksforgeeks.org/static-variables-in-c/	static variable
-https://www.geeksforgeeks.org/memory-layout-of-c-program/	memory layout
