@@ -22,5 +22,5 @@ When compiling your code, add the source files and the required flag:
 <p><code>get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=&#60;size&#62;</code></p>
 
 <h2>&#128221; Testing</h2>
-<p>You only have to edit the get_next_line.c file and uncomment the main function and headers inside it. You can edit test.txt files to put another text if you wish to test othe cases. Then simply run this command (change "xx" with desired buffer size) :</p>
+<p>You can add a text file, open it in with open() function and call get_next_line() function with its file descriptor. Then simply run this command (change "xx" with desired buffer size) :</p>
 <code>gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c -o get_next_line && ./get_next_line</code>
